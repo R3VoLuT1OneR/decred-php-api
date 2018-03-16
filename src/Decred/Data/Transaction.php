@@ -15,7 +15,7 @@ class Transaction
     public function __construct(array $data)
     {
         if (!isset($data['txid']) || !isset($data['time'])) {
-            throw new \RuntimeException('Wrong transaction data!');
+            throw new \RuntimeException('Wrong transaction data!'.var_export($data, true));
         }
 
         $this->data = $data;

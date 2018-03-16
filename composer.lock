@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "26b05b4a4a47da6729e756ae9abec742",
-    "content-hash": "27f44fb075e44b0576e9a1d1d40765fc",
+    "hash": "412f10e09c376ae3d4ad8f04d3b4c6e2",
+    "content-hash": "067c33b03b4587bc8af778d1c5f4fc86",
     "packages": [
         {
             "name": "fgrosse/phpasn1",
@@ -370,6 +370,68 @@
                 "random"
             ],
             "time": "2017-09-27 21:40:39"
+        },
+        {
+            "name": "phalcon/zephir",
+            "version": "0.10.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phalcon/zephir.git",
+                "reference": "2917ebe8aec4b4a3a2561f6b74b7c8f96472a335"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phalcon/zephir/zipball/2917ebe8aec4b4a3a2561f6b74b7c8f96472a335",
+                "reference": "2917ebe8aec4b4a3a2561f6b74b7c8f96472a335",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-hash": "*",
+                "ext-json": "*",
+                "ext-xml": "*",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "ext-gmp": "*",
+                "ext-pdo": "*",
+                "ext-pdo_sqlite": "*",
+                "phpunit/phpunit": "^4.8",
+                "squizlabs/php_codesniffer": "^3.2"
+            },
+            "bin": [
+                "bin/zephir"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Zephir\\": "Library"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/phalcon/zephir/graphs/contributors"
+                },
+                {
+                    "name": "Zephir Team",
+                    "email": "team@zephir-lang.com",
+                    "homepage": "https://zephir-lang.com/"
+                }
+            ],
+            "description": "Zephir is a compiled high level language aimed to the creation of C-extensions for PHP",
+            "homepage": "https://zephir-lang.com/",
+            "keywords": [
+                "extension",
+                "internals",
+                "phalcon",
+                "zephir"
+            ],
+            "time": "2017-12-28 10:19:40"
         },
         {
             "name": "psr/http-message",

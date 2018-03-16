@@ -1,0 +1,6 @@
+.temp/
+compile-errors.log
+compile.log
+doc/
+ext/
+
